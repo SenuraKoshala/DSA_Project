@@ -5,15 +5,15 @@
 #include "Singly_Linked_List.h"
 
 using namespace std;
-// Moda BAthalaya
+// saharaan senura thambiya
 
 int main()
 {
     int index = 0;
     int selection = 0;
-    cout << "Welcome to the faculty health care management system" << endl;
-    cout << "If you have registered erlier press\t 1" << endl;
-    cout << "If you haven't registerd earlier press\t 0" << endl;
+    cout << "---------------Welcome to the faculty health care management system-------------" << endl<<endl;
+    cout << "If you have registered earlier press\t 1" << endl;
+    cout << "If you haven't registerd earlier press\t 0" << endl<<endl;
     cout << "Enter your selection: ";
     cin >> selection;
 
@@ -24,11 +24,11 @@ int main()
             break;
         }
         else if (selection == 0) {
-            cout << "Prompt user to enteer his or her details" << endl;
+            cout << "Prompt user to enter his or her details" << endl;
             break;
         }
         else {
-            cout << "Inavalid selection!!!!...." << endl;
+            cout << "Inavalid selection! Please re-enter your selection." << endl<<endl;
             cout << "Enter your selection: ";
             cin >> selection;
         }
